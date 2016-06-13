@@ -1,0 +1,168 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Love</title>
+<script type="text/javascript" src="inc/jquery.min.js"></script>
+<script type="text/javascript" src="inc/simpleFade.js"></script>
+<link href="inc/stylec.css" rel="stylesheet" type="text/css" />
+
+
+</head>
+
+<body>
+<script>
+$(document).ready(function(){
+		$('#fade1').simpleFade();
+		$('#fade2').simpleFade({'restart_to':3});
+		$('#fade3').simpleFade({'goout':true});
+		$('#fade4').simpleFade({'restart':false});
+		$('#fade5').simpleFade({'start':3});
+		$('#fade6').simpleFade({'velocita':100,'timeout':700});
+		$('#fade7').simpleFade({'timeout':300,'random':true});
+		$('#fade8').simpleFade({
+			'goout' : true,
+			'callback':function(){
+					$('#callback').fadeIn();
+				}
+			});
+		
+		
+		$('.desc').fadeTo(200,0.1);		
+		$('.box').bind({
+			mouseenter: function(){
+				$(this).children('.desc').fadeTo(200,0.8);
+			},
+			mouseleave: function(){
+				$(this).children('.desc').fadeTo(200,0.1);
+			}
+		});
+});
+</script>
+<div id="fade1" class="box">
+	<img src="img/1.jpg" class="elSlide">
+	<img src="img/2.jpg" class="elSlide">
+	<img src="img/3.jpg" class="elSlide">
+	<img src="img/4.jpg" class="elSlide">
+	<img src="img/5.jpg" class="elSlide">
+	<div class="desc">
+		<h4>CODE:</h4>
+		<code>
+			$('#fade1').simpleFade();
+		</code>		
+	</div>
+</div>
+<div id="fade2" class="box">
+	<img src="img/1.jpg" class="elSlide">
+	<img src="img/2.jpg" class="elSlide">
+	<img src="img/3.jpg" class="elSlide">
+	<img src="img/4.jpg" class="elSlide">
+	<img src="img/5.jpg" class="elSlide">
+	<div class="desc">
+		<h4>CODE:</h4>
+		<code>
+			$('#fade2').simpleFade({<br>
+				'restart_to':3<br>
+			});
+		</code>		
+	</div>
+</div>
+<div id="fade3" class="box">
+	<img src="img/1.jpg" class="elSlide">
+	<img src="img/2.jpg" class="elSlide">
+	<img src="img/3.jpg" class="elSlide">
+	<img src="img/4.jpg" class="elSlide">
+	<img src="img/5.jpg" class="elSlide">
+	<div class="desc">
+		<h4>CODE:</h4>
+		<code>
+			$('#fade3').simpleFade({<br>
+				'goout':true<br>
+			});
+		</code>		
+	</div>
+</div>
+<div id="fade4" class="box">
+	<img src="img/1.jpg" class="elSlide">
+	<img src="img/2.jpg" class="elSlide">
+	<img src="img/3.jpg" class="elSlide">
+	<img src="img/4.jpg" class="elSlide">
+	<img src="img/5.jpg" class="elSlide">
+	<div class="desc">
+		<h4>CODE:</h4>
+		<code>
+			$('#fade4').simpleFade({<br>
+				'restart':false<br>
+			});
+		</code>		
+	</div>
+</div>
+<div id="fade5" class="box">
+	<img src="img/1.jpg" class="elSlide">
+	<img src="img/2.jpg" class="elSlide">
+	<img src="img/3.jpg" class="elSlide">
+	<img src="img/4.jpg" class="elSlide">
+	<img src="img/5.jpg" class="elSlide">
+	<div class="desc">
+		<h4>CODE:</h4>
+		<code>
+			$('#fade5').simpleFade({<br>
+				'start':3<br>
+			});
+		</code>		
+	</div>
+</div>
+<div id="fade6" class="box">
+	<img src="img/1.jpg" class="elSlide">
+	<img src="img/2.jpg" class="elSlide">
+	<img src="img/3.jpg" class="elSlide">
+	<img src="img/4.jpg" class="elSlide">
+	<img src="img/5.jpg" class="elSlide">
+	<div class="desc">
+		<h4>CODE:</h4>
+		<code>
+			$('#fade6').simpleFade({<br>
+				'velocita':100,<br>
+				'timeout':700<br>
+			});
+		</code>		
+	</div>
+</div>
+<div id="fade7" class="box">
+	<img src="img/1.jpg" class="elSlide">
+	<img src="img/2.jpg" class="elSlide">
+	<img src="img/3.jpg" class="elSlide">
+	<img src="img/4.jpg" class="elSlide">
+	<img src="img/5.jpg" class="elSlide">
+	<div class="desc">
+		<h4>CODE:</h4>
+		<code>
+			$('#fade7').simpleFade({<br>
+				'random':true,<br>
+				'timeout':300<br>
+			});
+		</code>		
+	</div>
+</div>
+<div id="fade8" class="box">
+	<img src="img/1.jpg" class="elSlide">
+	<img src="img/2.jpg" class="elSlide">
+	<img src="img/3.jpg" class="elSlide">
+	<img src="img/4.jpg" class="elSlide">
+	<img src="img/5.jpg" class="elSlide">
+	<div class="desc">
+		<h4>CODE:</h4>
+		<code>
+			$('#fade8').simpleFade({<br>
+				'callback':function(){<br>
+					$('#callback').fadeIn();<br>
+				}<br>
+			});
+		</code>		
+	</div>
+	<img src="img/callback.jpg" id="callback">
+</div>
+
+<div id="logo"><a href="http://n3verl4nd.sourceforge.net/" title="ajoin.it"><img src="" /></a></div>
+</body>
+</html>

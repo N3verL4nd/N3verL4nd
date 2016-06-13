@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>阡 陌</title>
+<style type="text/css">
+body {
+	background-color: #999999;
+}
+</style>
+</head>
+<center><font size=5 color=#6F00D2>倚天阁</font></center>
+<br>
+<body>
+<center>
+<body style="margin-top:20px">
+<div id="zhang" style="overflow:hidden;height:570px;width:1290px; margin-left:10px;">
+   <table   cellspacing="0"   cellpadding="0" style="width: 680px; border :0px;">
+    <tr>
+     <td id="tian" >
+      <table style="border:0px;"  cellpadding="0" cellspacing="0">
+       <tr>
+        <td><img style="border:0px;" alt ="" src="qianmo/1.jpg" hspace="10"/></td>
+        <td style ="width:30px;"></td>
+        <td><img style="border:0px;" alt =""src="qianmo/2.jpg" hspace="10"/></td>
+        <td style ="width:30px;"></td>
+        <td><img style="border:0px;"alt ="" src="qianmo/3.jpg" hspace="10"/></td>
+        <td style ="width:30px;"></td>
+        <td><img style="border:0px;" alt =""src="qianmo/4.jpg" hspace="10"/></td>
+        <td style ="width:30px;"></td>
+        <td><img style="border:0px;" alt =""src="qianmo/5.jpg" hspace="10"/></td>
+        <td style ="width:30px;"></td>
+        <td><img style="border:0px;" alt =""src="qianmo/6.jpg"hspace="10"/></td>
+        <td style ="width:30px;"></td>
+        <td><img style="border:0px;"alt ="" src="qianmo/7.jpg" hspace="10"/></td>
+        <td style ="width:30px;"></td>
+        <td><img style="border:0px;"alt ="" src="qianmo/8.jpg" hspace="10"/></td>
+        <td style ="width:30px;"></td>
+        <td><img style="border:0px;"alt ="" src="qianmo/9.jpg" hspace="10"/></td>
+        <td style ="width:30px;"></td>
+        <td><img style="border:0px;"alt ="" src="qianmo/10.jpg" hspace="10"/></td>
+        <td style ="width:30px;"></td>
+        <td><img style="border:0px;"alt ="" src="qianmo/11.jpg" hspace="10"/></td>
+        <td style ="width:30px;"></td>
+        <td><img style="border:0px;"alt ="" src="qianmo/12.jpg" hspace="10"/></td>
+        <td style ="width:30px;"></td>
+        <td><img style="border:0px;"alt ="" src="qianmo/13.jpg" hspace="10"/></td>
+        <td style ="width:30px;"></td>
+        <td><img style="border:0px;"alt ="" src="qianmo/14.jpg" hspace="10"/></td>
+        <td style ="width:30px;"></td>
+        <td><img style="border:0px;"alt ="" src="qianmo/15.jpg" hspace="10"/></td>
+        <td style ="width:30px;"></td>
+        <td><img style="border:0px;"alt ="" src="qianmo/16.jpg" hspace="10"/></td>
+        <td style ="width:30px;"></td>
+        <td><img style="border:0px;"alt ="" src="qianmo/17.jpg" hspace="10"/></td>
+        <td style ="width:30px;"></td>
+        <td></td>
+       </tr>
+      </table>
+     </td>
+     <td id="yi"></td>
+    </tr>
+   </table>
+  </div>
+       <script type="text/javascript" >
+           var speed = 50//速度数值越大速度越慢
+           document.getElementById("yi").innerHTML = document.getElementById("tian").innerHTML;
+           function Marquee() {
+               if (document.getElementById("yi").offsetWidth - document.getElementById("zhang").scrollLeft <= 0) {
+                   document.getElementById("zhang").scrollLeft -= document.getElementById("tian").offsetWidth
+               }
+               else {
+                   document.getElementById("zhang").scrollLeft++
+               }
+           }
+
+           var MyMar = setInterval(Marquee, speed)
+           document.getElementById("zhang").onmouseover = function() { clearInterval(MyMar) }
+           document.getElementById("zhang").onmouseout = function() { MyMar = setInterval(Marquee, speed) }
+        </script>
+
+</center>
+
+<EMBED src="jiaru.mp3" width=0 height=0 type=audio/mpeg loop="true" autostart="true" volume="0"></EMBED>
+
+</body>
+</html>
