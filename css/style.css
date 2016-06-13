@@ -1,0 +1,78 @@
+{
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+BODY {
+	FONT: 12px/1.6em Tahoma, "Trebuchet MS", Tahoma, sans-serif; COLOR: #8e8e91
+}
+A {
+	COLOR: #000; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #000; TEXT-DECORATION: underline
+}
+P {
+	MARGIN: 0px 0px 15px
+}
+H1 {
+	FONT: 2.8em Georgia, "Times New Roman", Arial; COLOR: #444
+}
+H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 3px; MARGIN: 0px 0px 10px; FONT: 1.7em Georgia, "Times New Roman", Arial; COLOR: #333; PADDING-TOP: 0px; BORDER-BOTTOM: #eee 1px solid
+}
+IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+#content {
+	MARGIN: 25px auto; WIDTH: 930px
+}
+#logo {
+	FLOAT: left; MARGIN: 10px 0px 20px; WIDTH: 280px
+}
+#logo P {
+	MARGIN: 0px
+}
+#menu {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: right; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 38px; PADDING-TOP: 40px
+}
+#menu LI {
+	DISPLAY: inline; FONT-SIZE: 1.1em
+}
+#menu LI A {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 7px; MARGIN: 0px 0px 0px 10px; WIDTH: 87px; COLOR: #636365; PADDING-TOP: 2px; TEXT-ALIGN: center
+}
+#menu LI A.current {
+	BACKGROUND: url(images/button.gif) #fff no-repeat; COLOR: #933
+}
+#menu LI A:hover {
+	BACKGROUND: url(images/button_grey.gif) #fff no-repeat; COLOR: #000; TEXT-DECORATION: none
+}
+#left {
+	CLEAR: left; FLOAT: left; MARGIN: 0px 0px 20px; WIDTH: 340px
+}
+#left IMG {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 6px; PADDING-LEFT: 6px; BACKGROUND: #fff; PADDING-BOTTOM: 6px; PADDING-TOP: 6px; BORDER-BOTTOM: #ccc 1px solid
+}
+#center {
+	FLOAT: left; MARGIN: 0px 0px 20px 15px; WIDTH: 170px
+}
+#right {
+	FLOAT: right; WIDTH: 400px
+}
+.box {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px;  PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+.box LI {
+	LINE-HEIGHT: 26px; BORDER-BOTTOM: #ccc 1px dotted; LIST-STYLE-TYPE: none
+}
+.box LI A {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#footer {
+	CLEAR: both; PADDING-RIGHT: 15px; PADDING-LEFT: 15px; FONT-SIZE: 12px; PADDING-BOTTOM: 15px; PADDING-TOP: 15px
+}
+#footer A {
+	COLOR: #444
+}
+#text {
+	MARGIN: 50px auto; WIDTH: 500px
+}
