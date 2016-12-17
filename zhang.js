@@ -60,7 +60,7 @@ function check()
 		}
 	}
 	if (winFlag)
-		document.getElementById("iloveyou").innerHTML = "<p><center><a href=qianmo.html target=_top><font size=5 color=#999999>芊漪</font></a></center></p>";
+		document.getElementById("iloveyou").innerHTML = "<p><center><a href=qianmo.html target=_top><font size=5 color=#999999></font></a></center></p>";
 	else
 		document.getElementById("iloveyou").innerHTML = "&nbsp;";
 }
